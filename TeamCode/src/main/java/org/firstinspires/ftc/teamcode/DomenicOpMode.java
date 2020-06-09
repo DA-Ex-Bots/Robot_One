@@ -182,7 +182,7 @@ public class DomenicOpMode extends LinearOpMode {
 
 // Drop marker
 
-        servo1.setPosition(0.1);
+//        servo1.setPosition(0.1);
 
         sleep(1400);
 
@@ -192,7 +192,7 @@ public class DomenicOpMode extends LinearOpMode {
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
 // Raise sorter
-        servo1.setPosition(1);
+//        servo1.setPosition(1);
 // Drive towards crater
         Straight(49);
 // Turn right
@@ -206,7 +206,7 @@ public class DomenicOpMode extends LinearOpMode {
 // Drive forward towards 1st mineral
         Straight(15.5);
 // Lower color sensor arm
-        servo2.setPosition(0.73);
+//        servo2.setPosition(0.73);
 // Check minerals
         Straight(14);
 // Turn towards gold mineral
