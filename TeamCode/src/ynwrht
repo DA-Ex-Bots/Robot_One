@@ -1,5 +1,5 @@
-package org.firstinspires.ftc.teamcode;
 
+package org.firstinspires.ftc.robotcontroller.internal;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -193,7 +193,7 @@ public class ColorCrater extends LinearOpMode {
         servo2.setPosition(0.73);
         colorTwo();
 // Check minerals
-
+// this is a change
         if(color() == true){
             Pos = 1;
             Gold = 1;

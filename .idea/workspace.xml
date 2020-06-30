@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa43ce3-c719-4a66-94ab-2b85c5b9dcf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/ynwrht" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/thrwny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Robot_One.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Robot_One.iml" afterDir="false" />
+    <list default="true" id="3fa43ce3-c719-4a66-94ab-2b85c5b9dcf5" name="Default Changelist" comment="Add DomenicOpMode file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/ynwrht" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/ynwrht" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="40" />
-    <option name="width" value="463" />
-    <option name="height" value="250" />
   </component>
   <component name="ProjectId" id="1d3wqvSQt4WNT7It0QcD9uKTzmi" />
   <component name="ProjectViewState">
@@ -167,6 +159,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add DomenicOpMode file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1593479920488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="304" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593479920488" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593477405719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -175,5 +171,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593476905863" />
+    <state x="110" y="120" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593479183721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="110" y="120" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1593479183721" />
   </component>
 </project>
