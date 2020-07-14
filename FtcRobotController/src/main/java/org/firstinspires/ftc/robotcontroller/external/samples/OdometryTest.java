@@ -24,7 +24,7 @@ public class OdometryTest extends LinearOpMode {
 
 
         while(opModeIsActive()) {
-// thsi is a change
+// this is even more of a change
             if(runTo(motor1, 1000)) {
                 break;
             }
