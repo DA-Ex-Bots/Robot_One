@@ -118,6 +118,71 @@ public class DriveTrain {
         motor4.setPower(0);
     }
 
+    public void Left_Strafe(int inches) {
+
+        double revolutions = (inches / Circumfrence); //revolutions needed to go
+        int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
+
+        //to go that number of ticks as specified in the variable above
+
+        motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+        motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+        motor1.setTargetPosition(dist);
+        motor2.setTargetPosition(-dist);
+        motor3.setTargetPosition(dist);
+        motor4.setTargetPosition(-dist);
+
+        motor1.setPower(0.5);
+        motor2.setPower(0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(0.5);
+
+        //while (m1.isBusy()) {
+          //  telemetry.update();
+          //  telemetry.addData("Motor 1 is Busy:", m1.isBusy());
+        }
+
+    public void Right_Strafe(int inches) {
+
+
+        double revolutions = (inches / Circumfrence); //revolutions needed to go
+        int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
+
+        //to go that number of ticks as specified in the variable above
+
+        motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+        motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+        motor1.setTargetPosition(-dist);
+        motor2.setTargetPosition(dist);
+        motor3.setTargetPosition(-dist);
+        motor4.setTargetPosition(dist);
+
+        motor1.setPower(0.5);
+        motor2.setPower(0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(0.5);
+
+        //while (m1.isBusy()) {
+           // telemetry.update();
+           // telemetry.addData("Motor 1 is Busy:", m1.isBusy());
+        }
+
     public void Grad_Turn(int angle, int radius, char direction){
         double robot_width = 18; //used in order to calculate the distance the outer wheel will go
 
