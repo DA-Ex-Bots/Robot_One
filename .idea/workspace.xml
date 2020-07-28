@@ -2,14 +2,500 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fa43ce3-c719-4a66-94ab-2b85c5b9dcf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Robot_One.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Robot_One.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build.release.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build.release.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/FTC_2016-17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/FTC_2016-17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RelicVuMark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RelicVuMark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RoverRuckus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/RoverRuckus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/Skystone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/Skystone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/StonesAndChips.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/StonesAndChips.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptDIMAsIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptDIMAsIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRevSPARKMini.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRevSPARKMini.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsOnBotJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsOnBotJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentificationWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentificationWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigationWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigationWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaSkyStoneNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaSkyStoneNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaSkyStoneNavigationWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaSkyStoneNavigationWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/OdometryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/OdometryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveToLine_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveToLine_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorKLNavxMicro.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorKLNavxMicro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRCompass.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRCompass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRIrSeeker.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRIrSeeker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMROpticalDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMROpticalDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRRangeSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRRangeSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREV2mDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREV2mDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREVColorDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREVColorDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/sample_conventions.md" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/sample_conventions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcOpModeRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcOpModeRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/PermissionValidatorWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/PermissionValidatorWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/layout/activity_ftc_controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/layout/activity_ftc_controller.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-sw600dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-sw600dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-sw720dp-land/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-sw720dp-land/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-w820dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/xml/app_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/xml/app_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/xml/device_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/xml/device_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build.release.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build.release.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriveTrain" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/DriveTrain" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/thrwny" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.common.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.common.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ClassManagerFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ClassManagerFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdPlaySound.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdPlaySound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdRequestSound.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdRequestSound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdStopPlayingSounds.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdStopPlayingSounds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdVisuallyIdentify.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdVisuallyIdentify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxAddressChangeRequest.AddressChange.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxAddressChangeRequest.AddressChange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxAddressChangeRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxAddressChangeRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareImagesResp.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareImagesResp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareUpdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareUpdate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareUpdateResp.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareUpdateResp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.USBAccessibleLynxModulesRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.USBAccessibleLynxModulesRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.USBAccessibleLynxModulesResp.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.USBAccessibleLynxModulesResp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/CommandList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ConfigWifiDirectActivity.Flag.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ConfigWifiDirectActivity.Flag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ConfigWifiDirectActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ConfigWifiDirectActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAboutActivity.AboutFragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAboutActivity.AboutFragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAboutActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAboutActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAdvancedRCSettingsActivity.SettingsFragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAdvancedRCSettingsActivity.SettingsFragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAdvancedRCSettingsActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcAdvancedRCSettingsActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoop.DefaultUsbModuleAttachmentHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoop.DefaultUsbModuleAttachmentHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopBase.LynxUsbDeviceContainer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopBase.LynxUsbDeviceContainer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopIdle.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopIdle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.FwResponseStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.FwResponseStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.ReceiveLoopCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.ReceiveLoopCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.AddressAndDisplayName.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.AddressAndDisplayName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.AddressConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.AddressConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.DisplayedModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.DisplayedModule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.DisplayedModuleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.DisplayedModuleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.ReceiveLoopCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.ReceiveLoopCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerService.FtcRobotControllerBinder.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerService.FtcRobotControllerBinder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerService.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerSettingsActivity.SettingsFragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerSettingsActivity.SettingsFragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerSettingsActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerSettingsActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectChannelSelectorActivity.WifiChannelItemAdapter.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectChannelSelectorActivity.WifiChannelItemAdapter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectChannelSelectorActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectChannelSelectorActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.RecvLoopCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.RecvLoopCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.WifiP2pGroupItemAdapter.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.WifiP2pGroupItemAdapter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/LaunchActivityConstantsList.RequestCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/LaunchActivityConstantsList.RequestCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/LaunchActivityConstantsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/LaunchActivityConstantsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ProgrammingModeController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ProgrammingModeController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/Restarter.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/Restarter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.CurrentlyPlaying.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.CurrentlyPlaying.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.InstanceHolder.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.InstanceHolder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.LoadedSoundCache.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.LoadedSoundCache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.PlaySoundParams.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.PlaySoundParams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.SoundFromFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.SoundFromFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.SoundInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.SoundInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.StopWhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.StopWhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/USBAccessibleLynxModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/USBAccessibleLynxModule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.Callback.DeviceNameManagerCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.Callback.DeviceNameManagerCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.Callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.Callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UsbModuleAttachmentHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/UsbModuleAttachmentHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ViewLogsActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/ViewLogsActivity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/ftccommon/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoop.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoopManager.EventLoopMonitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoopManager.EventLoopMonitor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoopManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoopManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.Manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.Manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.ShutdownReason.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.ShutdownReason.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.Syncable.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.Syncable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/AnnotatedOpModeManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/AnnotatedOpModeManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/AnnotatedOpModeRegistrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/AnnotatedOpModeRegistrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/Autonomous.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/Autonomous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/Disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/Disabled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/EventLoopManagerClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/EventLoopManagerClient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/FtcRobotControllerServiceState.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/FtcRobotControllerServiceState.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.LinearOpModeHelper.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.LinearOpModeHelper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManagerNotifier.Notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManagerNotifier.Notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManagerNotifier.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManagerNotifier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeRegistrar.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeRegistrar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/TeleOp.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/TeleOp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/eventloop/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/DuplicateNameException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/DuplicateNameException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/RobotCoreException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/RobotCoreException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/RobotProtocolException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/RobotProtocolException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/TargetPositionNotSetException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/TargetPositionNotSetException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/exception/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AccelerationSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AccelerationSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogInput.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogInput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogInputController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogInputController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogOutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogOutput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogOutputController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogOutputController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Blinker.Step.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Blinker.Step.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Blinker.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Blinker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CRServo.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CRServo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CRServoImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CRServoImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CRServoImplEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CRServoImplEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ColorSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ColorSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CompassSensor.CompassMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CompassSensor.CompassMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CompassSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/CompassSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ControlSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ControlSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.RunMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.RunMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.ZeroPowerBehavior.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.ZeroPowerBehavior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorControllerEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorControllerEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorImplEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorImplEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorSimple.Direction.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorSimple.Direction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorSimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceInterfaceModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceInterfaceModule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceManager.UsbDeviceType.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceManager.UsbDeviceType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannel.Mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannel.Mode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannel.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelController.Mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelController.Mode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DistanceSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/DistanceSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Engagable.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Engagable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.GamepadCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.GamepadCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/GyroSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/GyroSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Gyroscope.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Gyroscope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDevice.Manufacturer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDevice.Manufacturer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceCloseOnTearDown.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceCloseOnTearDown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealth.HealthStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealth.HealthStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealth.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealthImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealthImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareMap.DeviceMapping.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareMap.DeviceMapping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareMap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddrConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddrConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddressableDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddressableDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.I2cPortReadyBeginEndNotifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.I2cPortReadyBeginEndNotifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.I2cPortReadyCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.I2cPortReadyCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cControllerPortDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cControllerPortDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cControllerPortDeviceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cControllerPortDeviceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceReader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.HeartbeatAction.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.HeartbeatAction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.ReadMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.ReadMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.ReadWindow.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.ReadWindow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchDeviceWithParameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchDeviceWithParameters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.CONTROLLER_PORT_MODE.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.CONTROLLER_PORT_MODE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.Callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.Callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.READ_CACHE_STATUS.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.READ_CACHE_STATUS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.WRITE_CACHE_STATUS.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.WRITE_CACHE_STATUS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.WriteCacheStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.WriteCacheStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImplOnSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImplOnSimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchReadHistory.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchReadHistory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchReadHistoryImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchReadHistoryImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchSimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cWaitControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/I2cWaitControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IntegratingGyroscope.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IntegratingGyroscope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.IrSeekerIndividualSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.IrSeekerIndividualSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.Mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.Mode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LED.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LED.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModulePortDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModulePortDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModulePortDeviceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModulePortDeviceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Light.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Light.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LightBlinker.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LightBlinker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LightMultiplexor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LightMultiplexor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LightSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LightSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LynxModuleMeta.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LynxModuleMeta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LynxModuleMetaList.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/LynxModuleMetaList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/MotorControlAlgorithm.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/MotorControlAlgorithm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/NormalizedColorSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/NormalizedColorSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/NormalizedRGBA.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/NormalizedRGBA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/OpticalDistanceSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/OpticalDistanceSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/OrientationSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/OrientationSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PIDCoefficients.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PIDCoefficients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PIDFCoefficients.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PIDFCoefficients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputControllerEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputControllerEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputImplEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputImplEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PwmControl.PwmRange.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PwmControl.PwmRange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PwmControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/PwmControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/RobotConfigNameable.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/RobotConfigNameable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/RobotCoreLynxModule.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/RobotCoreLynxModule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/RobotCoreLynxUsbDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/RobotCoreLynxUsbDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ScannedDevices.MapAdapter.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ScannedDevices.MapAdapter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ScannedDevices.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ScannedDevices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Servo.Direction.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Servo.Direction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Servo.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/Servo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.PwmStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.PwmStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoControllerEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoControllerEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoImplEx.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoImplEx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/SwitchableLight.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/SwitchableLight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TimestampedData.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TimestampedData.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TimestampedI2cData.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TimestampedI2cData.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TouchSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TouchSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TouchSensorMultiplexer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/TouchSensorMultiplexer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/UltrasonicSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/UltrasonicSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/VisuallyIdentifiableHardwareDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/VisuallyIdentifiableHardwareDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/VoltageSensor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/VoltageSensor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.Resolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.Resolution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/Range.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/Range.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/SerialNumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/SerialNumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/TypeConversion.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/TypeConversion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/util/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/ClassFactory.InstanceHolder.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/ClassFactory.InstanceHolder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/ClassFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/ClassFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Const.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Const.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Consumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Consumer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Event.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Func.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Function.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Function.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.AtMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.AtMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.SortDirection.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.SortDirection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.SortType.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.SortType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.TrimMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.TrimMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/NonConst.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/NonConst.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Predicate.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Predicate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/SignificantMotionDetection.SignificantMotionDetectionListener.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/SignificantMotionDetection.SignificantMotionDetectionListener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/SignificantMotionDetection.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/SignificantMotionDetection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/State.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/State.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/StateMachine.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/StateMachine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/StateTransition.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/StateTransition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Supplier.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Supplier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Line.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Log.DisplayOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Log.DisplayOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Log.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/ThrowingCallable.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/ThrowingCallable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidAccelerometer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidAccelerometer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidGyroscope.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidGyroscope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidOrientation.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidOrientation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidSoundPool.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidSoundPool.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidTextToSpeech.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidTextToSpeech.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/BuiltinCameraName.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/BuiltinCameraName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.Error.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.Error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.OpenFailure.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.OpenFailure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.StateCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.StateCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.StateCallbackDefault.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.StateCallbackDefault.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/Camera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSequenceId.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSequenceId.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.CaptureCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.CaptureCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.StateCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.StateCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.StateCallbackDefault.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.StateCallbackDefault.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.StatusCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.StatusCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCaptureSession.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCharacteristics.CameraMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCharacteristics.CameraMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCharacteristics.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraCharacteristics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraControls.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraControls.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraName.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/CameraName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/SwitchableCamera.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/SwitchableCamera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/WebcamName.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/WebcamName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/CameraControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/CameraControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/ExposureControl.Mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/ExposureControl.Mode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/ExposureControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/ExposureControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.Mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.Mode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/hardware/camera/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/ColumnMajorMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/ColumnMajorMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/ColumnMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/ColumnMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/DenseMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/DenseMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/GeneralMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/GeneralMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/MatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/MatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/OpenGLMatrix.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/OpenGLMatrix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/RowMajorMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/RowMajorMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/RowMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/RowMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/SliceMatrixF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/SliceMatrixF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/VectorF.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/VectorF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Acceleration.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Acceleration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AngleUnit.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AngleUnit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AngularVelocity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AngularVelocity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AxesOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AxesOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AxesReference.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AxesReference.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Axis.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Axis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/DistanceUnit.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/DistanceUnit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MagneticFlux.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MagneticFlux.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.MotionDetectionListener.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.MotionDetectionListener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.Vector.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.Vector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/NavUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/NavUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Orientation.AngleSet.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Orientation.AngleSet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Orientation.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Orientation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Position.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Quaternion.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Quaternion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/RelicRecoveryVuMark.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/RelicRecoveryVuMark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Rotation.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Rotation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/TempUnit.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/TempUnit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/UnnormalizedAngleUnit.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/UnnormalizedAngleUnit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Velocity.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Velocity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuMarkInstanceId.Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuMarkInstanceId.Type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuMarkInstanceId.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuMarkInstanceId.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaBase.TrackingResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaBase.TrackingResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.CameraDirection.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.CameraDirection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.CloseableFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.CloseableFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.Parameters.CameraMonitorFeedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.Parameters.CameraMonitorFeedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.Parameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.Parameters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRelicRecovery.TrackingResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRelicRecovery.TrackingResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRelicRecovery.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRelicRecovery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRoverRuckus.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRoverRuckus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaSkyStone.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaSkyStone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackable.Listener.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackable.Listener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackable.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackableDefaultListener.PoseAndCamera.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackableDefaultListener.PoseAndCamera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackableDefaultListener.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackableDefaultListener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackables.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.Listener.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.Listener.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/stream/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/Recognition.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/Recognition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TFObjectDetector.Parameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TFObjectDetector.Parameters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TFObjectDetector.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TFObjectDetector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TfodBase.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TfodBase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TfodRoverRuckus.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TfodRoverRuckus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TfodSkyStone.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/TfodSkyStone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/org/firstinspires/ftc/robotcore/external/tfod/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/javadoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/doc/javadoc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/legal/AudioBlocksSounds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/legal/AudioBlocksSounds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/legal/Exhibit A - LEGO Open Source License Agreement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/legal/Exhibit A - LEGO Open Source License Agreement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/media/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/media/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/tutorial/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/tutorial/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ZY223WT8NW" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -27,50 +513,19 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="domenic" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="DA-Ex-Bots" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Robot_One" />
-  </component>
-  <component name="ProjectId" id="1d3wqvSQt4WNT7It0QcD9uKTzmi" />
+  <component name="ProjectId" id="1eyRiFeUnU2wEa4JjXTkCmWqhbm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Build Variants" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
-  </component>
-  <component name="PsdUISettings">
-    <option name="BUILD_VARIANTS_TAB" value="Flavors" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.firstinspires.ftc.robotcontroller.internal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dbel3\AndroidStudioProjects\Robot_One\FtcRobotController\src\main\java\org\firstinspires\ftc\robotcontroller\internal" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -133,7 +588,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\dbel3\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -143,95 +598,40 @@
       <option name="presentableId" value="Default" />
       <updated>1570492523582</updated>
     </task>
-    <task id="LOCAL-00001" summary="Add DomenicOpMode file">
-      <created>1591667499187</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1591667499187</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add DomenicOpMode file">
-      <created>1593479971130</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1593479971130</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add DomenicOpMode file">
-      <created>1594084528647</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1594084528647</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add DomenicOpMode file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DomenicOpMode file" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1594084526090">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1594689871116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="304" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594084526090" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593477405719">
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594689871116" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595292089946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593477405719" />
-    <state x="465" y="230" key="Github.CreatePullRequestDialog" timestamp="1594084939258">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595292089946" />
+    <state width="1306" height="104" key="GridCell.Tab.0.bottom" timestamp="1595295988253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="465" y="230" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1594084939258" />
-    <state width="661" height="178" key="GridCell.Tab.0.bottom" timestamp="1594086359159">
+    <state width="1306" height="104" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595295988253" />
+    <state width="1306" height="104" key="GridCell.Tab.0.center" timestamp="1595295988252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594086359159" />
-    <state width="661" height="178" key="GridCell.Tab.0.center" timestamp="1594086359158">
+    <state width="1306" height="104" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595295988252" />
+    <state width="1306" height="104" key="GridCell.Tab.0.left" timestamp="1595295988252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594086359158" />
-    <state width="661" height="178" key="GridCell.Tab.0.left" timestamp="1594086359158">
+    <state width="1306" height="104" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595295988252" />
+    <state width="1306" height="104" key="GridCell.Tab.0.right" timestamp="1595295988252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594086359158" />
-    <state width="661" height="178" key="GridCell.Tab.0.right" timestamp="1594086359158">
+    <state width="1306" height="104" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595295988252" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594689709704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594086359158" />
-    <state x="263" y="106" key="IDE.errors.dialog" timestamp="1594082841275">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594689709704" />
+    <state x="451" y="155" key="git4idea.merge.GitMergeDialog" timestamp="1594689615919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1594082841275" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594086100918">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594086100918" />
-    <state x="110" y="120" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593479183721">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="110" y="120" width="1146" height="488" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1593479183721" />
-    <state x="451" y="155" key="git4idea.merge.GitMergeDialog" timestamp="1594084392129">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="451" y="155" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1594084392129" />
-    <state x="339" y="164" key="run.anything.popup" timestamp="1593480088633">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593480088633" />
+    <state x="451" y="155" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1594689615919" />
   </component>
 </project>
