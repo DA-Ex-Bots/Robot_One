@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.robotcontroller.external.samples;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
-//@Disabled
+@Disabled
 public class DriveTrain {
 
     LinearOpMode opmode;
@@ -38,7 +38,7 @@ public class DriveTrain {
         motor2 = (DcMotor)hwmap.get("motor2");
         motor3 = (DcMotor)hwmap.get("motor3");
         motor4 = (DcMotor)hwmap.get("motor4");
-        motor3.setDirection(DcMotor.Direction.REVERSE);
+        motor2.setDirection(DcMotor.Direction.REVERSE);
         motor4.setDirection(DcMotor.Direction.REVERSE);
 
     }

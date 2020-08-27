@@ -4,6 +4,8 @@ import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
+import org.firstinspires.ftc.robotcontroller.external.samples.DriveTrain;
+
 @Autonomous(name = "BasicJacksonProgram", group = "Linear OpMode")
 public class BasicJacksonProgram extends LinearOpMode {
 
