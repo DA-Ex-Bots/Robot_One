@@ -31,6 +31,10 @@ public class DriveTrain {
         this.opmode = opmode;
     }
 
+    public DriveTrain() {
+
+    }
+
     public void init(HardwareMap ahwmap) {
         // this is a function used to intialize the motors
         hwmap = ahwmap;

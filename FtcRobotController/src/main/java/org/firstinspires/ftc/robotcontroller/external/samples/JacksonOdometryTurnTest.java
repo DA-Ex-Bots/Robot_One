@@ -30,7 +30,7 @@ public class JacksonOdometryTurnTest extends LinearOpMode {
         motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         while (opModeIsActive()) {
-            if (runTo(motor1, motor2, motor3, motor4, 2325)) {
+            if (runTo(motor1, motor2, motor3, motor4, 90)) {
                 break;
             }
 
@@ -47,7 +47,9 @@ public class JacksonOdometryTurnTest extends LinearOpMode {
         motor4 = hardwareMap.get(DcMotor.class, "motor4");
     }
 
-    private boolean runTo(DcMotor motorOne, DcMotor motorTwo, DcMotor motorThree, DcMotor motorFour, int Target) {
+    private boolean runTo(DcMotor motorOne, DcMotor motorTwo, DcMotor motorThree, DcMotor motorFour, int degrees) {
+
+        double Target = (((degrees / 360) * (13 * Math.PI)) / (1.5 * Math.PI)) * 1000;
 
         motorOne.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         motorTwo.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
@@ -58,11 +60,15 @@ public class JacksonOdometryTurnTest extends LinearOpMode {
         int LeftPos = motorOne.getCurrentPosition();
 
         if (Target == 0) {
+            telemetry.addData("Target", Target);
+            sleep(5000);
             return true;
         }
 
         if (Target < 0) {
             while (Target != RightPos && opModeIsActive()) {
+                telemetry.addData("Target", Target);
+                sleep(5000);
                 RightPos = motorTwo.getCurrentPosition();
                 if(RightPos < Target + range) {
                     motorOne.setPower(-0.3);
@@ -88,6 +94,8 @@ public class JacksonOdometryTurnTest extends LinearOpMode {
         }
         if (Target > 0) {
             while (Target != LeftPos && opModeIsActive()) {
+                telemetry.addData("Target", Target);
+                sleep(5000);
                 LeftPos = motorOne.getCurrentPosition();
                 if (LeftPos > Target + range) {
                     motorOne.setPower(0.3);
@@ -112,6 +120,7 @@ public class JacksonOdometryTurnTest extends LinearOpMode {
             }
             return true;
         }
+        sleep(5000);
         return true;
     }
 }
