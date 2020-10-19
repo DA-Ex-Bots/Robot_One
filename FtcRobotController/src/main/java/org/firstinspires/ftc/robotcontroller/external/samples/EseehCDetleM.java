@@ -4,25 +4,20 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
+private ElapsedTime runtime = new ElapsedTime();
+private DcMotor motor1 = null;
+private DcMotor motor2 = null;
+private DcMotor motor3 = null;
+private DcMotor motor4 = null;
 
-@Autonomous(name="EseehCDetleM", group="Linear Opmode")
+        DriveTrain robot;
 
-public class EseehCDetleM extends LinearOpMode {
-
-    private ElapsedTime runtime = new ElapsedTime();
-    private DcMotor motor1 = null;
-    private DcMotor motor2 = null;
-    private DcMotor motor3 = null;
-    private DcMotor motor4 = null;
-
-    DriveTrain robot;
-
-    {
+        {
         robot = new DriveTrain();
-    }
+        }
 
-    @Override
-    public void runOpMode() {
+@Override
+public void runOpMode() {
         telemetry.addData("Status", "Initialized");
         telemetry.update();
         waitForStart();
@@ -39,4 +34,9 @@ public class EseehCDetleM extends LinearOpMode {
 
         robot.Turn(90);
         }
+@Autonomous(name="EseehCDetleM", group="Linear Opmode")
+
+public class EseehCDetleM extends LinearOpMode {
+
+
     }
