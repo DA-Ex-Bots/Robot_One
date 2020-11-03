@@ -3,18 +3,21 @@ package org.firstinspires.ftc.robotcontroller.external.samples;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-@Autonomous(name = "UGMeetAuto")
+@Autonomous(name = "UGMeet1Auto")
 public class UGMeet1Auto extends LinearOpMode {
+
+    HardwareMap hwmap = null;
 
     private ElapsedTime runtime = new ElapsedTime();
     private DcMotor motor1 = null;
     private DcMotor motor2 = null;
     private DcMotor motor3 = null;
     private DcMotor motor4 = null;
-    private DcMotor motor5 = null;
+    //private DcMotor motor5 = null;
     private Servo servo1 = null;
     private Servo servo2 = null;
 
@@ -30,14 +33,19 @@ public class UGMeet1Auto extends LinearOpMode {
         telemetry.update();
         waitForStart();
 
-        motor2.setDirection(DcMotor.Direction.REVERSE);
-        motor4.setDirection(DcMotor.Direction.REVERSE);
+        robot.init(hardwareMap, this);
+
+        motor1 = hardwareMap.get(DcMotor.class, "motor1");
+        motor2 = hardwareMap.get(DcMotor.class, "motor2");
+        motor3 = hardwareMap.get(DcMotor.class, "motor3");
+        motor4 = hardwareMap.get(DcMotor.class, "motor4");
+        //motor5 = hardwareMap.get(DcMotor.class, "motor5");
 
         motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        motor5.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        //motor5.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         //moves forward off of wall
         robot.Straight(56);
@@ -47,10 +55,12 @@ public class UGMeet1Auto extends LinearOpMode {
 
         servo1.setPosition(1);
 
+        //read position of rod
+
         //split
         //A
 
-        int x = motor5.getCurrentPosition();
+        int x = 1; //motor5.getCurrentPosition();
         if (x == 1) {
 
             //strafes towards wall
@@ -81,7 +91,7 @@ public class UGMeet1Auto extends LinearOpMode {
             robot.Straight(48);
 
             //servo release wobble goal
-            //code goes here
+            servo2.setPosition(1);
 
             //moves away from wobble goal
             robot.Straight(12);
