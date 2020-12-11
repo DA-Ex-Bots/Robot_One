@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
-
+// Negative turns go right, positive turns go left
 @Disabled
 public class DriveTrain {
 
@@ -24,7 +24,6 @@ public class DriveTrain {
     public CRServo ServoSensor = null;
     public CRServo WobbleGrabber = null;
     public Servo servo4 = null;
-    //public Servo servo4 = null;
 
     private double gearRatio = 12.0/43.0;
     //^ a variable used in both functions and can be changed from robot to robot
@@ -91,10 +90,10 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.2);
-        motor2.setPower(0.2);
-        motor3.setPower(0.2);
-        motor4.setPower(0.2);
+        motor1.setPower(0.3);
+        motor2.setPower(0.3);
+        motor3.setPower(0.3);
+        motor4.setPower(0.3);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             opmode.telemetry.addData("Motor 1 is busy: ", motor1.isBusy());
@@ -125,8 +124,8 @@ public class DriveTrain {
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         motor1.setTargetPosition(distance);
-        motor2.setTargetPosition(distance);
-        motor3.setTargetPosition(-distance);
+        motor2.setTargetPosition(-distance);
+        motor3.setTargetPosition(distance);
         motor4.setTargetPosition(-distance);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
@@ -134,10 +133,10 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.2);
-        motor2.setPower(0.2);
-        motor3.setPower(-0.2);
-        motor4.setPower(-0.2);
+        motor1.setPower(0.5);
+        motor2.setPower(-0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(-0.5);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             //telemetry.update();
@@ -148,7 +147,7 @@ public class DriveTrain {
         motor4.setPower(0);
 
     }
-    public void Right_Strafe(int inches) {
+    public void Left_Strafe(int inches) {
 
         double revolutions = (inches / Circumfrence); //revolutions needed to go
         int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
@@ -170,17 +169,21 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(-0.2);
-        motor2.setPower(0.2);
-        motor3.setPower(0.2);
-        motor4.setPower(-0.2);
+        motor1.setPower(-0.5);
+        motor2.setPower(0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(-0.5);
 
-        //while (m1.isBusy()) {
-        // telemetry.update();
-        // telemetry.addData("Motor 1 is Busy:", m1.isBusy());
+        while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
+            //telemetry.update();
+        }
+        motor1.setPower(0);
+        motor2.setPower(0);
+        motor3.setPower(0);
+        motor4.setPower(0);
     }
 
-    public void Left_Strafe(int inches) {
+    public void Right_Strafe(int inches) {
 
         double revolutions = (inches / Circumfrence); //revolutions needed to go
         int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
@@ -202,14 +205,18 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.2);
-        motor2.setPower(-0.2);
-        motor3.setPower(-0.2);
-        motor4.setPower(0.2);
+        motor1.setPower(0.5);
+        motor2.setPower(-0.5);
+        motor3.setPower(-0.5);
+        motor4.setPower(0.5);
 
-        //while (m1.isBusy()) {
-        //  telemetry.update();
-        //  telemetry.addData("Motor 1 is Busy:", m1.isBusy());
+        while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
+            //telemetry.update();
+        }
+        motor1.setPower(0);
+        motor2.setPower(0);
+        motor3.setPower(0);
+        motor4.setPower(0);
     }
 
     public void Grad_Turn(int angle, int radius, char direction){
