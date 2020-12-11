@@ -20,12 +20,13 @@ public class DriveTrain {
     public DcMotor motor4 = null;
     public DcMotor motor5 = null;
     public DcMotor motor6 = null;
+    public DcMotor motor7 = null;
     public Servo WobbleArm = null;
     public CRServo ServoSensor = null;
     public CRServo WobbleGrabber = null;
-    //public Servo servo4 = null;
+    public Servo servo4 = null;
 
-    private double gearRatio = 1;
+    private double gearRatio = 12.0/43.0;
     //^ a variable used in both functions and can be changed from robot to robot
     private double gearRatioL = 240;
     //^ a variable used in both functions and can be changed from robot to robot
@@ -52,16 +53,18 @@ public class DriveTrain {
         motor4 = hwmap.get(DcMotor.class, "motor4");
         motor5 = hwmap.get(DcMotor.class, "motor5");
         motor6 = hwmap.get(DcMotor.class, "motor6");
+        motor7 = hwmap.get(DcMotor.class, "motor7");
         WobbleArm = hwmap.get(Servo.class, "servo1");
         ServoSensor = hwmap.get(CRServo.class, "servo2");
         WobbleGrabber = hwmap.get(CRServo.class, "servo3");
+        servo4 = hwmap.get(Servo.class, "servo4");
         opmode.telemetry.addData("Motor 1: ", motor1.getDeviceName());
         opmode.telemetry.update();
 
-        motor1.setDirection(DcMotor.Direction.FORWARD);
-        motor3.setDirection(DcMotor.Direction.FORWARD);
-        motor2.setDirection(DcMotor.Direction.REVERSE);
-        motor4.setDirection(DcMotor.Direction.REVERSE);
+        motor1.setDirection(DcMotor.Direction.REVERSE);
+        motor3.setDirection(DcMotor.Direction.REVERSE);
+        motor2.setDirection(DcMotor.Direction.FORWARD);
+        motor4.setDirection(DcMotor.Direction.FORWARD);
         motor5.setDirection(DcMotor.Direction.FORWARD);
 
     }
@@ -70,6 +73,7 @@ public class DriveTrain {
 
         double revolutions = (inches / Circumfrence); //revolutions needed to go
         int dist = (int)(revolutions * TPR * gearRatio); //  the ticks needed to go
+        double power = 0;
 
         //to go that number of ticks as specified in the variable above
 
@@ -81,21 +85,25 @@ public class DriveTrain {
         motor1.setTargetPosition(dist);
         motor2.setTargetPosition(dist);
         motor3.setTargetPosition(dist);
-        motor4.setTargetPosition(-dist);
+        motor4.setTargetPosition(dist);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.5);
-        motor2.setPower(0.5);
-        motor3.setPower(0.5);
-        motor4.setPower(-0.5);
+        motor1.setPower(0.3);
+        motor2.setPower(0.3);
+        motor3.setPower(0.3);
+        motor4.setPower(0.3);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
-            opmode.telemetry.addData("Motor 1 is busy: ", motor1.isBusy());
-            opmode.telemetry.update();
+            double fraction = motor1.getCurrentPosition()/motor1.getTargetPosition();
+            power = Math.sin((((2/3)*Math.PI)*fraction + Math.asin(0.5)));
+            motor1.setPower(power);
+            motor2.setPower(power);
+            motor3.setPower(power);
+            motor4.setPower(power);
 
         }
 
@@ -106,7 +114,7 @@ public class DriveTrain {
 
     }
 
-    public void Turn(int angle,double speed){
+    public void Turn(int angle){
         double revolutions = (angle / Circumfrence); //revolutions needed to go
         int dist = (int)(revolutions * TPR * gearRatio); //the ticks needed to go
         double turn = 5.1; //the number needed to change from a straight to a turn
@@ -122,8 +130,8 @@ public class DriveTrain {
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
         motor1.setTargetPosition(distance);
-        motor2.setTargetPosition(distance);
-        motor3.setTargetPosition(-distance);
+        motor2.setTargetPosition(-distance);
+        motor3.setTargetPosition(distance);
         motor4.setTargetPosition(-distance);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
@@ -131,10 +139,10 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(speed);
-        motor2.setPower(speed);
-        motor3.setPower(-speed);
-        motor4.setPower(-speed);
+        motor1.setPower(0.5);
+        motor2.setPower(-0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(-0.5);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             //telemetry.update();
@@ -144,6 +152,77 @@ public class DriveTrain {
         motor3.setPower(0);
         motor4.setPower(0);
 
+    }
+    public void Left_Strafe(int inches) {
+
+        double revolutions = (inches / Circumfrence); //revolutions needed to go
+        int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
+
+        //to go that number of ticks as specified in the variable above
+
+        motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+        motor1.setTargetPosition(-dist);
+        motor2.setTargetPosition(dist);
+        motor3.setTargetPosition(dist);
+        motor4.setTargetPosition(-dist);
+
+        motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+        motor1.setPower(-0.5);
+        motor2.setPower(0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(-0.5);
+
+        while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
+            //telemetry.update();
+        }
+        motor1.setPower(0);
+        motor2.setPower(0);
+        motor3.setPower(0);
+        motor4.setPower(0);
+    }
+
+    public void Right_Strafe(int inches) {
+
+        double revolutions = (inches / Circumfrence); //revolutions needed to go
+        int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
+
+        //to go that number of ticks as specified in the variable above
+
+        motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+        motor1.setTargetPosition(dist);
+        motor2.setTargetPosition(-dist);
+        motor3.setTargetPosition(-dist);
+        motor4.setTargetPosition(dist);
+
+        motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+        motor1.setPower(0.5);
+        motor2.setPower(-0.5);
+        motor3.setPower(-0.5);
+        motor4.setPower(0.5);
+
+        while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
+            //telemetry.update();
+        }
+        motor1.setPower(0);
+        motor2.setPower(0);
+        motor3.setPower(0);
+        motor4.setPower(0);
     }
 
     public void Grad_Turn(int angle, int radius, char direction){
@@ -232,21 +311,6 @@ public class DriveTrain {
             //telemetry.addData("Incorrect directional value: ", direction);
         }
     }
-    public void coordinateSystem(double myPosX,double myPosY, double myFinalPosX, double myFinalPosY, double angle){
-        double XDist = myFinalPosX - myPosX;
-        double YDist = myFinalPosY - myPosY;
-
-        double inches = Math.sqrt((Math.pow(XDist, 2) + Math.pow(YDist, 2)));
-
-        double revolutions = (inches / Circumfrence); //revolutions needed to go
-        int dist = (int)(revolutions * TPR * gearRatio); //  the ticks needed to go
-
-        double theda = Math.acos(30/inches);
-
-        Turn((int)theda, 0.5);
-        Straight((int)inches);
-
-    }
 
     public void wobbleGoalIn(){
         WobbleGrabber.setPower(1);
@@ -271,4 +335,4 @@ public class DriveTrain {
             return 1;
         }
     }
-}
+}}
