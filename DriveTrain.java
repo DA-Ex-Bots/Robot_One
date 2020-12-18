@@ -43,7 +43,7 @@ public class DriveTrain {
     }
 
     public void init(HardwareMap ahwmap, LinearOpMode lom) {
-        // this is a function used to intialize the motors
+        // this is a function used to initialize the motors
         opmode = lom;
         hwmap = ahwmap;
         motor1 = hwmap.get(DcMotor.class, "motor1");
@@ -318,7 +318,9 @@ public class DriveTrain {
     }
 
     public int ringDetection(){
-        ServoSensor.setPower(0.25);
+        motor5.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor5.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        ServoSensor.setPower(-0.5);
         double pos = motor5.getCurrentPosition();
         if(pos <=280){
             return 3;
