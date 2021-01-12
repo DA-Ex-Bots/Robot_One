@@ -59,9 +59,6 @@ public class Meet3Teleop extends LinearOpMode {
                     if(gamepad1.x) {
                         DT.servo2.setPosition(0);
                     }
-
-
-
                     if(gamepad1.dpad_down) {
                         DT.servo1.setPosition(1);
                     }
@@ -76,6 +73,15 @@ public class Meet3Teleop extends LinearOpMode {
                     }
                     if(gamepad2.b){
                         //DT.servo4.setPosition(0);
+                    }
+                    if(gamepad2.left_stick_y != 0){
+                        DT.motor5.setPower(-gamepad1.left_stick_y);
+                    }
+                    if(gamepad2.a){
+                        DT.servo2.setPosition(0);
+                    }
+                    if(gamepad2.b){
+                        DT.servo2.setPosition(0.3);
                     }
                 }
             }
