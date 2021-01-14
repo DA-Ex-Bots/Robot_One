@@ -62,7 +62,7 @@ public class Auto extends LinearOpMode {
 
         else if(pos == 2){
             // Moves forward into zone C
-            robot.Straight(-76);
+            robot.Straight(-84);
             sleep(500);
 
             // Strafes right
@@ -95,6 +95,32 @@ public class Auto extends LinearOpMode {
             // Moves backward onto line
             robot.Straight(5);
         }
-        robot.Left_Strafe(10);
+
+        robot.motor6.setPower(0.9);
+        robot.motor7.setPower(-0.9);
+
+        if(pos != 1) {
+            robot.Left_Strafe(10);
+        }
+        robot.servo1.setPosition(0.25);
+        sleep(500);
+        robot.servo1.setPosition(0);
+        sleep(500);
+
+        robot.servo1.setPosition(0.25);
+        sleep(500);
+        robot.servo1.setPosition(0);
+        sleep(500);
+
+        robot.servo1.setPosition(0.25);
+        sleep(500);
+        robot.servo1.setPosition(0);
+        sleep(1000);
+
+        robot.motor6.setPower(0);
+        robot.motor7.setPower(0);
+
+
+        robot.Straight(-10);
     }
 }
