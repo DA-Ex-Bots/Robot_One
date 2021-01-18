@@ -29,7 +29,7 @@ public class Auto extends LinearOpMode {
         robot.servo2.setPosition(0.3);
 
         // Moves forward from wall
-        robot.Straight(-36);
+        robot.Straight(-34);
         sleep(500);
 
         // Strafes left
@@ -54,6 +54,9 @@ public class Auto extends LinearOpMode {
             robot.servo2.setPosition(0);
             sleep(1000);
 
+            robot.motor6.setPower(0.9);
+            robot.motor7.setPower(-0.9);
+
             // Moves backward onto line
             robot.Straight(24);
         }
@@ -65,27 +68,30 @@ public class Auto extends LinearOpMode {
             robot.Straight(-84);
             sleep(500);
 
-            // Strafes right
-            robot.Right_Strafe(-12);
-            sleep(500);
 
             // Drops wobble goal into zone C
             robot.servo2.setPosition(0);
             sleep(1000);
 
             // Moves backward onto line
-            robot.Straight(50);
+            robot.Straight(60);
+
+            // Strafes right
+            robot.Right_Strafe(12);
+            sleep(500);
+
+
         }
 
         // ZONE A
 
         else {
             // Moves forward into zone A
-            robot.Straight(-20);
+            robot.Straight(-16);
             sleep(500);
 
             // Strafes right
-            robot.Right_Strafe(-12);
+            robot.Right_Strafe(12);
             sleep(500);
 
             // Drops wobble goal into zone A
@@ -100,7 +106,7 @@ public class Auto extends LinearOpMode {
         robot.motor7.setPower(-0.9);
 
         if(pos != 1) {
-            robot.Left_Strafe(10);
+            robot.Left_Strafe(-10);
         }
         robot.servo1.setPosition(0.25);
         sleep(500);
@@ -121,6 +127,6 @@ public class Auto extends LinearOpMode {
         robot.motor7.setPower(0);
 
 
-        robot.Straight(-10);
+        robot.Straight(-12);
     }
 }
