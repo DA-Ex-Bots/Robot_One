@@ -47,9 +47,15 @@ public class Meet3Teleop extends LinearOpMode {
                         DT.motor3.setPower(0);
                         DT.motor4.setPower(0);
                     }
+
                     DT.motor5.setPower(gamepad2.right_stick_y);
-                    DT.motor6.setPower(gamepad2.right_trigger);
-                    DT.motor7.setPower(-gamepad2.right_trigger);
+                    if(gamepad2.right_trigger > 0) {
+                        DT.motor6.setPower(gamepad2.right_trigger);
+                        DT.motor7.setPower(-gamepad2.right_trigger);
+                    }else{
+                        DT.motor6.setPower(gamepad2.left_trigger * 0.9);
+                        DT.motor7.setPower(-gamepad2.left_trigger * 0.9);
+                    }
                     DT.motor8.setPower(gamepad2.left_stick_y);
 
                     if(gamepad1.a && pressed == false && runtime.milliseconds() >=  timeTwo + 300) {
@@ -66,22 +72,11 @@ public class Meet3Teleop extends LinearOpMode {
                         DT.servo2.setPosition(0);
                     }
 
-
-
-                    if(gamepad1.dpad_down) {
-                        DT.servo1.setPosition(1);
-                    }
-                    if(gamepad1.dpad_up) {
-                        DT.servo1.setPosition(0);
-                    }
-                    if(gamepad1.dpad_left){
-                        DT.servo1.setPosition(0.55);
-                    }
                     if(gamepad2.a){
-                        //DT.servo4.setPosition(0.5);
+                        DT.servo2.setPosition(0);
                     }
                     if(gamepad2.b){
-                        //DT.servo4.setPosition(0);
+                        DT.servo2.setPosition(0.3);
                     }
                 }
             }
