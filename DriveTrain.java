@@ -20,6 +20,7 @@ public class DriveTrain {
     public DcMotor motor5 = null;
     public DcMotor motor6 = null;
     public DcMotor motor7 = null;
+    public DcMotor motor8 = null;
     public Servo servo1 = null;
     public Servo servo2 = null;
 
@@ -51,6 +52,7 @@ public class DriveTrain {
         motor5 = hwmap.get(DcMotor.class, "motor5");
         motor6 = hwmap.get(DcMotor.class, "motor6");
         motor7 = hwmap.get(DcMotor.class, "motor7");
+        motor8 = hwmap.get(DcMotor.class, "motor8");
         servo1 = hwmap.get(Servo.class, "servo1");
         servo2 = hwmap.get(Servo.class, "servo2");
         opmode.telemetry.addData("Motor 1: ", motor1.getDeviceName());
@@ -76,20 +78,20 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        motor1.setTargetPosition(dist);
-        motor2.setTargetPosition(dist);
-        motor3.setTargetPosition(dist);
-        motor4.setTargetPosition(dist);
+        motor1.setTargetPosition(-dist);
+        motor2.setTargetPosition(-dist);
+        motor3.setTargetPosition(-dist);
+        motor4.setTargetPosition(-dist);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.3);
-        motor2.setPower(0.3);
-        motor3.setPower(0.3);
-        motor4.setPower(0.3);
+        motor1.setPower(-0.4);
+        motor2.setPower(-0.4);
+        motor3.setPower(-0.4);
+        motor4.setPower(-0.4);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             opmode.telemetry.addData("Motor 1 is busy: ", motor1.isBusy());
@@ -155,20 +157,20 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        motor1.setTargetPosition(-dist);
-        motor2.setTargetPosition(dist);
-        motor3.setTargetPosition(dist);
-        motor4.setTargetPosition(-dist);
+        motor1.setTargetPosition(dist);
+        motor2.setTargetPosition(-dist);
+        motor3.setTargetPosition(-dist);
+        motor4.setTargetPosition(dist);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(-0.5);
-        motor2.setPower(0.5);
-        motor3.setPower(0.5);
-        motor4.setPower(-0.5);
+        motor1.setPower(0.3);
+        motor2.setPower(-0.3);
+        motor3.setPower(-0.3);
+        motor4.setPower(0.3);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             //telemetry.update();
@@ -191,20 +193,20 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        motor1.setTargetPosition(dist);
-        motor2.setTargetPosition(-dist);
-        motor3.setTargetPosition(-dist);
-        motor4.setTargetPosition(dist);
+        motor1.setTargetPosition(-dist);
+        motor2.setTargetPosition(dist);
+        motor3.setTargetPosition(dist);
+        motor4.setTargetPosition(-dist);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.5);
-        motor2.setPower(-0.5);
-        motor3.setPower(-0.5);
-        motor4.setPower(0.5);
+        motor1.setPower(-0.3);
+        motor2.setPower(0.3);
+        motor3.setPower(0.3);
+        motor4.setPower(-0.3);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             //telemetry.update();
