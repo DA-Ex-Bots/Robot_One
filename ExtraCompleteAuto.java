@@ -44,16 +44,19 @@ public class ExtraCompleteAuto extends LinearOpMode {
             robot.Left_Strafe(24);
             sleep(500);
 
+            // Turns toward high goal
+            robot.Turn(10);
+
             // Moves forward into zone B
-            robot.Straight(12);
+            robot.Straight(16);
             sleep(500);
 
             // Drops wobble goal into zone B
             robot.servo2.setPosition(0);
             sleep(1000);
 
-            robot.motor6.setPower(0.85);
-            robot.motor7.setPower(-0.85);
+            robot.motor6.setPower(0.8);
+            robot.motor7.setPower(-0.8);
 
             // Moves backward onto line
             robot.Straight(-30);
@@ -81,11 +84,11 @@ public class ExtraCompleteAuto extends LinearOpMode {
 
         else {
             // Moves forward into zone A
-            robot.Straight(24);
+            robot.Straight(28);
             sleep(500);
 
             // Strafes toward zone A
-            robot.Left_Strafe(8);
+            robot.Right_Strafe(12);
             sleep(500);
 
             // Drops wobble goal into zone A
@@ -96,14 +99,14 @@ public class ExtraCompleteAuto extends LinearOpMode {
             robot.Straight(-12);
 
             // Turns toward the high goal
-            // robot.Turn(8);
+            robot.Turn(10);
         }
 
-        robot.motor6.setPower(0.85);
-        robot.motor7.setPower(-0.85);
+        robot.motor6.setPower(0.8);
+        robot.motor7.setPower(-0.8);
 
         if(pos != 1) {
-            robot.Left_Strafe(20);
+            robot.Left_Strafe(26);
         }
         sleep(500);
         robot.servo1.setPosition(0.5);
@@ -125,15 +128,19 @@ public class ExtraCompleteAuto extends LinearOpMode {
         robot.motor7.setPower(0);
 
         // Strafes toward second wobble goal
-        robot.Left_Strafe(28);
+        robot.Left_Strafe(17);
 
         // Flips wobble arm over
         robot.motor8.setPower(-1);
         sleep(1150);
         robot.motor8.setPower(0);
 
+        if (pos == 1) {
+            robot.Straight(-5);
+        }
+
         // Backs up toward second wobble goal
-        robot.Straight(-20);
+        robot.Straight(-22);
 
         // Picks up second wobble goal
         robot.servo2.setPosition(0.3);
@@ -141,14 +148,14 @@ public class ExtraCompleteAuto extends LinearOpMode {
 
         // Raises second wobble goal
         robot.motor8.setPower(1);
-        sleep(1100);
+        sleep(900);
         robot.motor8.setPower(0);
 
         // ZONE B
 
         if(pos == 1) {
             // Moves toward zone B
-            robot.Straight(-24);
+            robot.Straight(48);
 
             // Strafes toward zone B
             robot.Right_Strafe(20);
@@ -157,15 +164,15 @@ public class ExtraCompleteAuto extends LinearOpMode {
             robot.servo2.setPosition(0);
 
             // Parks on white line
-            robot.Straight(10);
+            robot.Straight(-10);
             sleep(500);
         }
 
         // ZONE C
 
-        if(pos == 2) {
+        else if(pos == 2) {
             // Moves toward zone C
-            robot.Straight(-48);
+            robot.Straight(50);
             sleep(500);
 
             // Strafes toward zone C
@@ -177,28 +184,28 @@ public class ExtraCompleteAuto extends LinearOpMode {
             sleep(500);
 
             // Parks on white line
-            robot.Straight(24);
+            robot.Straight(-24);
         }
 
         // ZONE A
 
         else {
             // Moves toward zone A
-            robot.Straight(10);
+            robot.Straight(35);
 
             // Strafes toward zone A
-            robot.Right_Strafe(40);
+            robot.Right_Strafe(46);
 
             // Releases second wobble goal into zone A
             robot.servo2.setPosition(0);
             sleep(500);
 
             // Backs up from zone A
-            robot.Straight(-5);
+            robot.Straight(-10);
             sleep(500);
 
             // Strafes away from zone A
-            robot.Left_Strafe(12);
+            robot.Left_Strafe(20);
             sleep(500);
 
             // Parks on white line
