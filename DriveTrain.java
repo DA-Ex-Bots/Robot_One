@@ -20,9 +20,12 @@ public class DriveTrain {
     public DcMotor motor5 = null;
     public DcMotor motor6 = null;
     public DcMotor motor7 = null;
-    public DcMotor motor8 = null;
-    public Servo servo1 = null;
-    public Servo servo2 = null;
+
+    public Servo WobbleArm = null;
+    public CRServo ServoSensor = null;
+    public CRServo WobbleGrabber = null;
+    public Servo servo4 = null;
+
 
     private double gearRatio = 12.0/43.0;
     //^ a variable used in both functions and can be changed from robot to robot
@@ -52,9 +55,11 @@ public class DriveTrain {
         motor5 = hwmap.get(DcMotor.class, "motor5");
         motor6 = hwmap.get(DcMotor.class, "motor6");
         motor7 = hwmap.get(DcMotor.class, "motor7");
-        motor8 = hwmap.get(DcMotor.class, "motor8");
-        servo1 = hwmap.get(Servo.class, "servo1");
-        servo2 = hwmap.get(Servo.class, "servo2");
+        WobbleArm = hwmap.get(Servo.class, "servo1");
+        ServoSensor = hwmap.get(CRServo.class, "servo2");
+        WobbleGrabber = hwmap.get(CRServo.class, "servo3");
+        servo4 = hwmap.get(Servo.class, "servo4");
+
         opmode.telemetry.addData("Motor 1: ", motor1.getDeviceName());
         opmode.telemetry.update();
 
@@ -63,9 +68,6 @@ public class DriveTrain {
         motor2.setDirection(DcMotor.Direction.FORWARD);
         motor4.setDirection(DcMotor.Direction.FORWARD);
         motor5.setDirection(DcMotor.Direction.FORWARD);
-        motor6.setDirection(DcMotor.Direction.REVERSE);
-        motor7.setDirection(DcMotor.Direction.REVERSE);
-
     }
 
     public void Straight(int inches){
@@ -80,20 +82,20 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        motor1.setTargetPosition(-dist);
-        motor2.setTargetPosition(-dist);
-        motor3.setTargetPosition(-dist);
-        motor4.setTargetPosition(-dist);
+        motor1.setTargetPosition(dist);
+        motor2.setTargetPosition(dist);
+        motor3.setTargetPosition(dist);
+        motor4.setTargetPosition(dist);
 
         motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(-0.3);
-        motor2.setPower(-0.3);
-        motor3.setPower(-0.3);
-        motor4.setPower(-0.3);
+        motor1.setPower(0.3);
+        motor2.setPower(0.3);
+        motor3.setPower(0.3);
+        motor4.setPower(0.3);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             opmode.telemetry.addData("Motor 1 is busy: ", motor1.isBusy());
@@ -133,10 +135,10 @@ public class DriveTrain {
         motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
         motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
-        motor1.setPower(0.8);
-        motor2.setPower(-0.8);
-        motor3.setPower(0.8);
-        motor4.setPower(-0.8);
+        motor1.setPower(0.5);
+        motor2.setPower(-0.5);
+        motor3.setPower(0.5);
+        motor4.setPower(-0.5);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             //telemetry.update();
@@ -148,42 +150,6 @@ public class DriveTrain {
 
     }
     public void Left_Strafe(int inches) {
-
-        double revolutions = (inches / Circumfrence); //revolutions needed to go
-        int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
-
-        //to go that number of ticks as specified in the variable above
-
-        motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-
-        motor1.setTargetPosition(dist);
-        motor2.setTargetPosition(-dist);
-        motor3.setTargetPosition(-dist);
-        motor4.setTargetPosition(dist);
-
-        motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-        motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
-
-        motor1.setPower(0.5);
-        motor2.setPower(-0.5);
-        motor3.setPower(-0.5);
-        motor4.setPower(0.5);
-
-        while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
-            //telemetry.update();
-        }
-        motor1.setPower(0);
-        motor2.setPower(0);
-        motor3.setPower(0);
-        motor4.setPower(0);
-    }
-
-    public void Right_Strafe(int inches) {
 
         double revolutions = (inches / Circumfrence); //revolutions needed to go
         int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
@@ -209,6 +175,42 @@ public class DriveTrain {
         motor2.setPower(0.5);
         motor3.setPower(0.5);
         motor4.setPower(-0.5);
+
+        while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
+            //telemetry.update();
+        }
+        motor1.setPower(0);
+        motor2.setPower(0);
+        motor3.setPower(0);
+        motor4.setPower(0);
+    }
+
+    public void Right_Strafe(int inches) {
+
+        double revolutions = (inches / Circumfrence); //revolutions needed to go
+        int dist = (int) (revolutions * TPR * gearRatio); //  the ticks needed to go
+
+        //to go that number of ticks as specified in the variable above
+
+        motor1.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor2.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor3.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor4.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+        motor1.setTargetPosition(dist);
+        motor2.setTargetPosition(-dist);
+        motor3.setTargetPosition(-dist);
+        motor4.setTargetPosition(dist);
+
+        motor1.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor2.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor3.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        motor4.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+
+        motor1.setPower(0.5);
+        motor2.setPower(-0.5);
+        motor3.setPower(-0.5);
+        motor4.setPower(0.5);
 
         while(motor1.isBusy() && motor2.isBusy() && motor3.isBusy() && motor4.isBusy() && opmode.opModeIsActive()){
             //telemetry.update();
@@ -307,12 +309,28 @@ public class DriveTrain {
     }
 
     public void wobbleGoalIn(){
-        servo2.setPosition(1);
+        WobbleGrabber.setPower(1);
     }
     public void wobbleGoalOut(){
-        servo2.setPosition(-1);
+        WobbleGrabber.setPower(-1);
     }
+
     public void conveyorBeltUp(){
         motor5.setPower(1);
     }
+
+    public int ringDetection(){
+        motor5.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        motor5.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        ServoSensor.setPower(-0.5);
+        double pos = motor5.getCurrentPosition();
+        if(pos <=280){
+            return 3;
+
+        }else if(pos >280 && pos <=420){
+            return 2;
+        }else {
+            return 1;
+        }
     }
+}
