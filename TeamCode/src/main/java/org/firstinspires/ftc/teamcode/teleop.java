@@ -4,25 +4,22 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
+import com.qualcomm.robotcore.hardware.HardwareMap;
+
+import org.firstinspires.ftc.teamcode.Robot;
+
 
 @TeleOp(name = "teleop")
 public class teleop extends LinearOpMode {
 
-    private DcMotor motor1;
-    private DcMotor motor2;
-    private DcMotor motor3;
-    private DcMotor motor4;
+    Robot robot = new Robot();
 
+    // DRY - DON'T REPEAT YOURSELF
+    // YAGNI - YOU AREN'T GOING to NEED IT
+    
     @Override
     public void runOpMode() {
-
-        motor1 = hardwareMap.get(DcMotor.class, "motor1");
-        motor2 = hardwareMap.get(DcMotor.class, "motor2");
-        motor3 = hardwareMap.get(DcMotor.class, "motor3");
-        motor4 = hardwareMap.get(DcMotor.class, "motor4");
-
-        motor2.setDirection(DcMotorSimple.Direction.REVERSE);
-        motor4.setDirection(DcMotorSimple.Direction.REVERSE);
+        robot.init(hardwareMap);
 
         waitForStart();
         if (opModeIsActive()) {
@@ -31,25 +28,25 @@ public class teleop extends LinearOpMode {
 
                 {
                     if (gamepad1.right_stick_y != 0 || gamepad1.left_stick_y != 0) {
-                        motor1.setPower(gamepad1.left_stick_y);
-                        motor2.setPower(gamepad1.right_stick_y);
-                        motor3.setPower(gamepad1.left_stick_y);
-                        motor4.setPower(gamepad1.right_stick_y);
+                        robot.rb_motor.setPower(gamepad1.left_stick_y);
+                        robot.lb_motor.setPower(gamepad1.right_stick_y);
+                        robot.rf_motor.setPower(gamepad1.left_stick_y);
+                        robot.lf_motor.setPower(gamepad1.right_stick_y);
                     } else if (gamepad1.right_trigger > 0) {
-                        motor1.setPower(gamepad1.right_trigger * 1.0);
-                        motor2.setPower(gamepad1.right_trigger * -1.0);
-                        motor3.setPower(gamepad1.right_trigger * -1.0);
-                        motor4.setPower(gamepad1.right_trigger * 1.0);
+                        robot.rb_motor.setPower(gamepad1.right_trigger * 1.0);
+                        robot.lb_motor.setPower(gamepad1.right_trigger * -1.0);
+                        robot.rf_motor.setPower(gamepad1.right_trigger * -1.0);
+                        robot.lf_motor.setPower(gamepad1.right_trigger * 1.0);
                     } else if (gamepad1.left_trigger > 0) {
-                        motor1.setPower(gamepad1.left_trigger * -1.0);
-                        motor2.setPower(gamepad1.left_trigger * 1.0);
-                        motor3.setPower(gamepad1.left_trigger * 1.0);
-                        motor4.setPower(gamepad1.left_trigger * -1.0);
+                        robot.rb_motor.setPower(gamepad1.left_trigger * -1.0);
+                        robot.lb_motor.setPower(gamepad1.left_trigger * 1.0);
+                        robot.rf_motor.setPower(gamepad1.left_trigger * 1.0);
+                        robot.lf_motor.setPower(gamepad1.left_trigger * -1.0);
                     } else if (gamepad1.right_stick_y == 0 && gamepad1.left_stick_y == 0 && gamepad1.right_trigger == 0 && gamepad1.left_trigger == 0) {
-                        motor1.setPower(0);
-                        motor2.setPower(0);
-                        motor3.setPower(0);
-                        motor4.setPower(0);
+                        robot.rb_motor.setPower(0);
+                        robot.lb_motor.setPower(0);
+                        robot.rf_motor.setPower(0);
+                        robot.lf_motor.setPower(0);
 
                     }
                 }

@@ -19,7 +19,7 @@ public class DriveTrain {
     public Servo servo1 = null;
     public Servo servo2 = null;
 
-    private double gearRatio = 1;
+    private double gearRatio = 12.0 / 43.0;
     //^ a variable used in both functions and can be changed from robot to robot
     private double TPR = 1120;
     //^ a variable used in both functions Ticks per revolution
@@ -49,7 +49,6 @@ public class DriveTrain {
         servo2 = (Servo)hwmap.get("servo2");
         motor2.setDirection(DcMotor.Direction.REVERSE);
         motor4.setDirection(DcMotor.Direction.REVERSE);
-
     }
 
     public void Straight(int inches){
